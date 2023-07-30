@@ -179,6 +179,7 @@ body.active { overflow: hidden; }
 .btn {
   color: var(--eerie-black-1);
   border-radius: 50px;
+  
 }
 
 .btn-outline {
@@ -188,11 +189,13 @@ body.active { overflow: hidden; }
   padding: 5px 15px;
   transition: var(--transition-1);
   border-radius: 12px;
+ 
 }
 
 .btn-outline:is(:hover, :focus) {
   background-color: var(--medium-sea-green);
   border-color: var(--medium-sea-green);
+  
 }
 
 .btn-primary {
@@ -588,6 +591,10 @@ body.active { overflow: hidden; }
 
 .table-heading,
 .table-data { padding: 8px; }
+
+/* .table-data .btn .btn-primary .btn-outline {
+  margin-right: 30px;
+} */
 
 .table-heading {
   font-size: var(--fs-5);
